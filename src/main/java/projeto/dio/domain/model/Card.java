@@ -14,6 +14,7 @@ public class Card {
     @Column(unique = true)
     private String number;
 
+    // 13 inteiros e 2 decimais
     @Column(name = "available_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
